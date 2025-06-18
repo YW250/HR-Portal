@@ -1,0 +1,47 @@
+.footer {
+  background-image: url('C:/Users/YW/Desktop/HR Portal/public/assets/footer-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #000;
+  position: relative;
+}
+
+.footer h5, .footer h6 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer a {
+  color: #6c757d;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: #343a40;
+  text-decoration: underline;
+}
+
+.footer p {
+  margin: 0.3rem 0;
+}
+
+.footer .bi {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+.footer .social-icons a {
+  font-size: 1.2rem;
+  margin: 0 0.5rem;
+  display: inline-block;
+  color: #6c757d;
+}
+
+.footer .social-icons a:hover {
+  color: #007bff;
+}
+
+.footer-overlay {
+  background-color: rgba(255, 255, 255, 0.5);
+}
