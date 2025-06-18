@@ -2,8 +2,15 @@ import React from 'react';
 import './Footer.css';
 
 function Footer() {
+  const footerStyle = {
+    backgroundImage: "url('/assets/footer-bg.png')",
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    backgroundRepeat: 'no-repeat',
+    color: '#000',
+  };
   return (
-    <footer className="footer mt-auto py-4 border-top">
+    <footer className="footer mt-auto py-4 border-top" style={footerStyle}>
       <div className="footer-overlay py-4">
 		<div className="container">
 			<div className="row justify-content-center mx-auto" style={{ maxWidth: '1000px' }}>
