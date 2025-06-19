@@ -39,7 +39,6 @@ const galleryImages = [
     title: 'University president visiting the HR departmentg',
     src: process.env.PUBLIC_URL + '/assets/pictures/10.jfif',
   },
-  // You can add more as needed
 ];
 
 export default galleryImages;

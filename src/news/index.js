@@ -8,8 +8,7 @@ import news7 from './news7';
 import news8 from './news8';
 import news9 from './news9';
 import news10 from './news10';
-// ... import all other news
 
-const newsList = [news1, news2, news3, news4, news5, news6, news7, news8, news9, news10 /* ...other news */];
+const newsList = [news1, news2, news3, news4, news5, news6, news7, news8, news9, news10 ];
 
 export default newsList;
